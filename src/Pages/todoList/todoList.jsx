@@ -65,7 +65,7 @@ class TodoList extends Component {
               <div className={"content_item"+i} key={i+1}>
                 <span className="content_item_value">{i+1}：{e}</span>
                 <span className="delete_btn">
-                  <button onClick={()=>{deleteItem(i)}}> 做完了 </button>
+                  <button onClick={()=>{deleteItem(i)}}> 删掉 </button>
                 </span>
               </div>
             )
